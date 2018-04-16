@@ -253,7 +253,7 @@ module.exports = {
     onlyAllowOrigins: [
       'https://example.com',
       'https://staging.example.com',
-      'https://cris-sailsapp.herokuapp.com/',
+      'https://cris-sailsapp.herokuapp.com',
     ],
 
 
