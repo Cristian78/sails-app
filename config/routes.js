@@ -27,6 +27,10 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
+  '/test/': {
+    view: 'pages/test'
+  },
+  'GET /listaAlumno': 'AlumnoController.list'
 
   /***************************************************************************
   *                                                                          *
