@@ -27,10 +27,12 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
-  '/test/': {
-    view: 'pages/test'
+  'GET /addAlumno/': {
+    view: 'pages/newAlumno'
   },
-  'GET /listaAlumno': 'AlumnoController.list'
+  'GET /listaAlumno': 'AlumnoController.list',
+  'POST /addAlumno': 'AlumnoController.add',
+  'GET /buscarAlumno': 'AlumnoController.buscar'
 
   /***************************************************************************
   *                                                                          *
